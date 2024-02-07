@@ -1,0 +1,148 @@
+/*Header Style*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #221f1f;
+}
+
+header {
+    background-color: #080808;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+nav ul li {
+    margin-left: 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: small;
+}
+nav ul li a:hover {
+    background-color: #555;
+}
+
+.logo{
+    max-height: 40px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.search-bar input[type="text"],
+  .search-bar button {
+    padding: 8px;
+    background-color: #060606;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+}
+
+.icons img{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+}
+/* Cards Style*/
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cards{
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #eee;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+
+.card-content h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    font-size: 14px;
+    color: #666;
+}
+
+.card-title{
+    margin-left: 100px;
+    justify-content: left;
+    color: #fff;
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+}
